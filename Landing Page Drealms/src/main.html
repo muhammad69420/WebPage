@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Portfolio & Shop</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        }
+            
+        #toggleText.clicked + .line-clamp-5 {
+            -webkit-line-clamp: unset;
+            overflow: visible;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <!--navigation bar-->
+    <header class="text-gray-100 body-font bg-gray-900 px-4 sm:px-10 lg:px-20 xl:px-40">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a href="main.html" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <img src="/Landing Page Drealms/icon/white_transparent.png" class="w-10" alt="">
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="main.html" class="mr-5 font-semibold hover:text-purple-500 hover:underline underline-offset-4 transition duration-300">Home</a>
+                <a href="portfolio.html" class="mr-5 font-semibold hover:text-purple-500 hover:underline underline-offset-4 transition duration-300 fonr">Portfolio</a>
+                <a href="shop.html" class="mr-5 font-semibold hover:text-purple-500 hover:underline underline-offset-4 transition duration-300">Shop</a>
+                <a href="blog.html" class="mr-5 font-semibold hover:text-purple-500 hover:underline underline-offset-4 transition duration-300">Blog</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Existing Code Above -->
+
+    <!-- "About Me" Section -->
+    <section class="bg-gray-800 text-gray-100 body-font px-5 md:px-10 xl:px-20 md:py-12 xl:py-16" style="padding-top: 100px; padding-bottom: 80px;">
+        <div class="container mx-auto flex px-10 py-8 md:flex-row flex-col items-center">
+
+            <!--  -->
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-2xl mb-4 font-medium text-white">
+                  Hello, I'm <span class="text-6xl text-purple-500 font-merriweather">Muhammad</span> 
+                </h1>
+                <p class="mb-8 leading-relaxed">
+                    Welcome to my website! I'm Muhammad, a dedicated 3D modeller and game developer.
+                </p>
+
+                <div class="flex justify-center">
+                  <a href="contact.html"
+                    class="inline-flex text-white bg-purple-600  border-0  py-4 px-4 focus:outline-none hover:bg-purple-800 rounded text-lg shadow-md duration-300 mr-5">
+                    Contact Me
+                  </a>
+                  <a href="portfolio.html"
+                  class="inline-flex text-white bg-gray-900 border-0  py-4 px-4 focus:outline-none  rounded text-lg shadow-md duration-300">
+                  View My Work
+                </a>
+                </div>
+              </div>
+              
+            <!--  -->
+            <div class="mb-20">
+                <img class="object-cover object-center rounded" alt="hero" src="/Landing Page Drealms/icon/white_transparent.png" width="300"> 
+            </div>
+        </div>
+    </section>
+    <!-- Existing Code Above -->
+
+    <section class="bg-gray-900 text-gray-100 body-font">
+        <div class="container px-5 pt-8 pb-1 mx-auto">
+            <!-- Title and Description with Adjusted Text Color -->
+            <div class="text-center mb-20">
+                <h1 class="text-4xl font-medium title-font text-purple-500 mb-4">About me</h1>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-100">Explore my collection of
+                    projects showcasing my skills and experience. Here you'll find a diverse range of work that reflects
+                    my expertise and creativity.</p>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-gray-300 inline-flex"></div>
+                </div>
+            </div>
+            <!-- Portfolio Grid with Items (Existing Code) -->
+            <div class="flex flex-wrap -m-4">
+                <!-- Portfolio items here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-900 text-gray-100 body-font px-4 sm:px-10 md:px-20" style="padding-bottom: 80px;">
+        <div class="container px-20 sm:px-10 md:px-20 pt-1 pb-8 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-full portfolio-item">
+                    <div class="h-full bg-gray-800 rounded-lg overflow-hidden flex flex-col md:flex-row">
+                        <div class="md:w-1/2">
+                            <img class="w-full h-full object-cover object-center " src="/Landing Page Drealms/img/image_8.png" alt="portfolio">
+                        </div>
+                        <div class="md:w-1/2 p-6">
+                            <h1 class="title-font text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-purple-500 mb-3">About me</h1>
+                            <p class="leading-relaxed mb-3 line-clamp-5">
+                                Welcome to my website! I'm Muhammad, a dedicated 3D modeller and game developer. Here, you'll find a rich portfolio of my work, insights from my professional journey, and a selection of high-quality digital assets for sale. My commitment to excellence shines through in every project, as I strive to push the boundaries of creativity and technology. This platform is not just a showcase of my skills, but a testament to my passion for crafting immersive digital experiences. Enjoy exploring my creations and feel free to reach out if you're interested in collaboration or purchasing my work. Let's make something amazing together!
+                            </p>                                                           
+                            <div class="flex items-center flex-wrap">
+                                <a href="portfolio.html" class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>                                                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Portfolio Section with Title and Description -->
+    <!-- Portfolio Section with Visible Text Colors -->
+    <section class="bg-gray-900 text-gray-100 body-font">
+        <div class="container px-5 pt-8 pb-1 mx-auto">
+            <!-- Title and Description with Adjusted Text Color -->
+            <div class="text-center mb-20">
+                <h1 class="text-4xl font-medium title-font text-purple-500 mb-4">My Portfolio</h1>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-100">Explore my collection of
+                    projects showcasing my skills and experience. Here you'll find a diverse range of work that reflects
+                    my expertise and creativity.</p>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-gray-300 inline-flex"></div>
+                </div>
+            </div>
+            <!-- Portfolio Grid with Items (Existing Code) -->
+            <div class="flex flex-wrap -m-4">
+                <!-- Portfolio items here -->
+            </div>
+        </div>
+    </section>
+    <!-- Rest of the Existing Code -->
+
+
+
+
+    <!-- Existing Portfolio Section Code -->
+  <section class="bg-gray-900 text-gray-100 body-font px-4 sm:px-10 md:px-20" style="padding-bottom: 80px;">
+    <div class="container px-4 sm:px-10 md:px-20 pt-1 pb-8 mx-auto">
+        <div class="flex flex-wrap -m-4">
+
+            <!-- item 1 -->
+            <div class="p-4 md:w-full portfolio-item px-20">
+                <div class="h-full bg-gray-800 rounded-lg overflow-hidden flex flex-col md:flex-row">
+                    <div class="md:w-1/2 p-6 order-2 md:order-1">
+                        <h1 class="title-font text-lg font-bold text-purple-500 mb-3">Robot</h1>
+                        <p class="leading-relaxed mb-3">Discover "The Autonomous Explorer," a distinctive 3D robot model I crafted using Blender and Substance Painter, without any external references. This model exemplifies a seamless blend of industrial design and intricate detailing. Meticulously designed, from its articulate joints to the detailed optic sensors, this robot is a testament to my ability to create from pure imagination. It stands as a striking example of my skills in 3D modeling and texturing, showcasing the power of creativity unleashed by advanced digital tools such as blender and substance painter.</p>
+                        <div class="flex items-center flex-wrap">
+                            <a href="portfolio.html" class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">See more
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 order-1 md:order-2">
+                        <img class="w-full h-full object-cover object-center"
+                            src="/Landing Page Drealms/img/legendary-render-bot-4k.jpg" alt="portfolio">
+                    </div>
+                </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="p-4 md:w-full portfolio-item px-20">
+                <div class="h-full  bg-gray-800 rounded-lg overflow-hidden flex flex-col md:flex-row">
+                    <div class="md:w-1/2 order-last">
+                        <img class="w-full h-full object-cover object-center " src="/Landing Page Drealms/img/13b5ba95_original.jpg" alt="portfolio">
+                    </div>
+                    <div class="md:w-1/2 p-6">
+                        <h1 class="title-font text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-purple-500 mb-3">City</h1>
+                        <p class="leading-relaxed mb-3 line-clamp-5">
+                            Urban Realism" is a testament to my expertise in crafting large-scale 3D projects. This realistic cityscape features detailed buildings, streets, and public areas, showcasing my ability to handle complex designs with precision. Each element is rendered with a focus on realism, from textures to lighting, demonstrating my skill in creating immersive and expansive urban environments efficiently. This project exemplifies the potential of digital art in bringing vast, lifelike cityscapes to life.
+                        </p>                                                           
+                        <div class="flex items-center flex-wrap">
+                            <a href="portfolio.html" class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">See more
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>                                                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- item 3 -->
+            <div class="p-4 md:w-full portfolio-item px-20">
+                <div class="h-full bg-gray-800 rounded-lg overflow-hidden flex flex-col md:flex-row">
+                    <div class="md:w-1/2 p-6 order-2 md:order-1">
+                        <h1 class="title-font text-lg font-bold text-purple-500 mb-3">Harbor</h1>
+                        <p class="leading-relaxed mb-3">
+                            In my low-poly project, I demonstrate the ability to masterfully handle multiple styles. This creation features a minimalist, geometric aesthetic with bright colors and simplified textures, offering a stark contrast to more complex designs. It's a testament to my adaptability and skill in creating diverse visual experiences in 3D modeling, from realistic details to charming low-poly artistry.</p>
+                        <div class="flex items-center flex-wrap">
+                            <a href="portfolio.html" class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">See more
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 order-1 md:order-2">
+                        <img class="w-full h-full object-cover object-center"
+                            src="/Landing Page Drealms/img/image (13).png" alt="portfolio">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    
+
+    <section class="bg-gray-900 text-gray-100 body-font">
+        <div class="container px-5 pt-8 pb-1 mx-auto">
+            <!-- Title and Description with Adjusted Text Color -->
+            <div class="text-center mb-20">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-purple-500">My shop</h1>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300">Explore my collection of
+                    projects showcasing my skills and experience. Here you'll find a diverse range of work that reflects
+                    my expertise and creativity.</p>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-gray-300 inline-flex"></div>
+                </div>
+            </div>
+
+            <!-- shop Grid with Items (Existing Code) -->
+            <div class="flex flex-wrap -m-4">
+                <!-- shop items here -->
+            </div>
+        </div>
+    </section>
+
+<!-- Shop Section -->
+
+<section class="bg-gray-900 text-gray-100 body-font" style="padding-bottom: 80px;">
+    <div class="container px-20 pt-1 pb-8 mx-auto">
+        <div class="flex flex-wrap -m-4">
+
+            <!-- item 1 -->
+            <div class="lg:w-1/4 md:w-1/2 p-4">
+                <div class="bg-gray-800 rounded-lg overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-48 aspect-w-1 aspect-h-1" src="/img/image1.jpg">
+                    <div class="mt-2 p-6">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1
+                        ">CATEGORY</h3>
+                        <h2 class="text-purple-500 text-lg font-bold">Dummy Product</h2>
+                        <p class="text-gray-300 text-sm mt-2">A brief description of the dummy product. It’s a placeholder item to showcase your shop layout.</p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="shop.html" class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="lg:w-1/4 md:w-1/2 p-4">
+                <div class="bg-gray-800 rounded-lg overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-48 aspect-w-1 aspect-h-1" src="/img/image2.jpg">
+                    <div class="mt-2 p-6">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1
+                        ">CATEGORY</h3>
+                        <h2 class="text-purple-500 text-lg font-bold">Dummy Product</h2>
+                        <p class="text-gray-300 text-sm mt-2">A brief description of the dummy product. It’s a placeholder item to showcase your shop layout.</p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="shop.html" class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- item 3  -->
+            <div class="lg:w-1/4 md:w-1/2 p-4">
+                <div class="bg-gray-800 rounded-lg overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-48 aspect-w-1 aspect-h-1" src="/img/image3.jpg">
+                    <div class="mt-2 p-6">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1
+                        ">CATEGORY</h3>
+                        <h2 class="text-purple-500 text-lg font-bold">Dummy Product</h2>
+                        <p class="text-gray-300 text-sm mt-2">A brief description of the dummy product. It’s a placeholder item to showcase your shop layout.</p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="shop.html" class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- item 4 -->
+            <div class="lg:w-1/4 md:w-1/2 p-4">
+                <div class="bg-gray-800 rounded-lg overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-48 aspect-w-1 aspect-h-1" src="/img/image1.jpg">
+                    <div class="mt-2 p-6">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1
+                        ">CATEGORY</h3>
+                        <h2 class="text-purple-500 text-lg font-bold">Dummy Product</h2>
+                        <p class="text-gray-300 text-sm mt-2">A brief description of the dummy product. It’s a placeholder item to showcase your shop layout.</p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="shop.html" class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat the same structure for other items -->
+        </div>
+    </div>
+</section>
+
+<!-- Rest of the Existing Code -->
+
+  <footer class="bg-gray-900 body-font flex-grow" >
+    <div class="container mx-auto flex items-center justify-center flex-col" style="padding-bottom: 30px;">
+      <p class="text-sm text-white mt-4">© 2024 Minimalist Portfolio —
+        <a href="https://twitter.com/" class="text-white ml-1" target="_blank" rel="noopener noreferrer">@yourTwitter</a>
+      </p>
+    </div>
+  </footer>
+ 
+</body>
+
+</html>

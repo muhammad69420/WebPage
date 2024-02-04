@@ -1,0 +1,2 @@
+Put an image per box, write a name for each project but keep it simple
+Just simple words like "robot" are fine.
