@@ -1,28 +1,35 @@
 <!-- Example structure for product-details.html -->
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
     <!-- Head content -->
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Shop</title>
         <link href="./output.css" rel="stylesheet" />
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+
 
         <style>
-
             header {
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
+                position: fixed;
+                width: 100%;
+                top: 0;
+                z-index: 1000;
             }
-            
+
+            .hidden {
+                display: none;
+            }
         </style>
-        
+
     </head>
 </head>
+
 <body class="bg-gray-800">
 
     <!-- navigation bar -->
@@ -60,27 +67,25 @@
                     porttitor justo vitae dui fermentum, in hendrerit dui posuere. Curabitur at cursus elit.</p>
                 <P class="mb-2">stock <span class="text-purple-500">100</span></P>
                 <div class="mb-4">
-                    <p class="text-purple-500 font-bold text-2xl">$30.00</p>
+                    <p class="text-purple-500 font-bold text-2xl" id="product_price">$30.00</p>
                 </div>
 
                 <!-- Quantity and Stock -->
                 <div class="mb-4 flex items-center">
                     <label for="quantity" class="mr-2 text-gray-300">Quantity:</label>
-                    <button onclick="decreaseQuantity()"
-                        class="bg-gray-700 text-white px-2 py-1 rounded">-</button>
+                    <!-- <button onclick="decreaseQuantity()" class="bg-gray-700 text-white px-2 py-1 rounded">-</button> -->
                     <input type="number" id="quantity" value="1" min="1"
                         class="text-white w-10 mx-2 bg-gray-600 rounded text-center">
-                    <button onclick="increaseQuantity()"
-                        class="bg-gray-700 text-white px-2 py-1 rounded">+</button>
+                    <!-- <button onclick="increaseQuantity()" class="bg-gray-700 text-white px-2 py-1 rounded">+</button> -->
                 </div>
-
+                <div id="unique_id" class="hidden">1</div>
                 <!-- Buy Button -->
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="YOUR_BUTTON_ID">
-                    <button type="submit"
-                        style="display: inline-block; padding: 8px 20px; background-color: #6f2cf5; color: #ffffff; text-decoration: none; border-radius: 4px; transition: background-color 0.3s ease;">Buy</button>
-                </form>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"> -->
+                <!-- <input type="hidden" name="cmd" value="_s-xclick"> -->
+                <!-- <input type="hidden" name="hosted_button_id" value="YOUR_BUTTON_ID"> -->
+                <button type="submit" id="checkout_btn"
+                    style="display: inline-block; padding: 8px 20px; background-color: #6f2cf5; color: #ffffff; text-decoration: none; border-radius: 4px; transition: background-color 0.3s ease;">Buy</button>
+                <!-- </form> -->
             </div>
         </div>
     </section>
