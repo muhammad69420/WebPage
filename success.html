@@ -56,8 +56,20 @@
     <h1>Payment Successful</h1>
     <p>Your payment has been successfully processed.</p>
     <p>Thank you for your purchase!</p>
+    <a id="downloadLink" href="" class="button" download="image">Download</a>
     <a href="/" class="button">Continue Shopping</a>
   </div>
+
+  <script>
+    const downloadLink = document.getElementById('downloadLink');
+
+    downloadLink.addEventListener('click', function (event) {
+      event.preventDefault();
+      const urlParams = new URLSearchParams(window.location.search);
+      const fileUrl = urlParams.get('file');
+      window.location.href = fileUrl;
+    });
+  </script>
 </body>
 
 </html>
