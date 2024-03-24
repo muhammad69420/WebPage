@@ -1,0 +1,27 @@
+Scope of Agreement:
+
+This Agreement governs the relationship between Developer A (Bharath Shanmugam AV) and Developer B (Shaunak Choudhury), collectively referred to as "Developers,"
+
+and
+
+Muhammad Wasseh Jamshaid, referred to as the "Client." It outlines the terms and conditions under which the Developers will provide services related to the development and operation of a website for the Client.
+
+Agreement Terms:
+
+Limitation of Legal Responsibilities: Client acknowledges and agrees that Developers shall not be held responsible for any legal responsibilities, including but not limited to compliance with laws, regulations, or industry standards, related to the website's content, functionality, or operations.
+
+Indemnification: Client agrees to indemnify, defend, and hold harmless Developers from and against any and all claims, liabilities, damages, losses, costs, and expenses arising out of or related to the website's content, functionality, or operations, including any breach of this Agreement or violation of applicable laws or regulations. Client shall promptly notify Developers of any claims or legal actions brought against them related to the website.
+
+No Warranty: Developers make no warranties, express or implied, regarding the website's content, functionality, or operations, including but not limited to any warranties of merchantability, fitness for a particular purpose, or non-infringement. Developers do not guarantee the accuracy, completeness, or suitability of the website's content for any specific purpose.
+
+Limitation of Damages: In no event shall Developers be liable to Client for any indirect, incidental, consequential, special, or punitive damages, or any loss of profits, revenue, data, or business opportunities arising out of or related to this Agreement, whether in contract, tort, or otherwise, even if advised of the possibility of such damages. This limitation of damages applies to both direct and indirect damages.
+
+Compliance with Laws: Client acknowledges and agrees that Developers shall not be held responsible for any illegal activities conducted by the Client or any third party related to the website's content, functionality, or operations. The Client agrees that they are solely responsible for ensuring that any material or activities hosted or facilitated by the website comply with all applicable laws, regulations, and industry standards. If the Client engages in any illegal activities through the website, including but not limited to the sale of prohibited goods or services, dissemination of unlawful content, or infringement of intellectual property rights, the Developers shall not be liable for any resulting consequences, legal actions, or damages. The Client agrees to indemnify, defend, and hold harmless the Developers from and against any claims, liabilities, damages, losses, costs, and expenses arising out of or related to any illegal activities conducted by the Client or any third party through the website. The Client shall promptly notify the Developers of any claims or legal actions brought against them related to such illegal activities.
+
+Signatures:
+
+Bharath Shanmugam AV (Developer A)
+Date: 24th March, 2024
+
+Shaunak Choudhury (Developer B)
+Date: 24th March, 2024
