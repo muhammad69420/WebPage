@@ -30,7 +30,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     const id = getItemId()
     console.log(`{"id":"${id}","quantity": "${quantity}"}`)
 
-    fetch('https://calm-bar-7111.av-bharath.workers.dev/', {
+    fetch('https://3drealms.workers.dev/', {
     // fetch('http://127.0.0.1:8787', {
       method: 'POST',
       headers: {
