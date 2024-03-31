@@ -30,14 +30,14 @@ window.addEventListener("DOMContentLoaded", (event) => {
     const id = getItemId()
     console.log(`{"id":"${id}","quantity": "${quantity}"}`)
 
-    fetch('https://3drealms.workers.dev/', {
+    fetch('https://3drbackend.3drealms.workers.dev/', {
     // fetch('http://127.0.0.1:8787', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       // body: `{"productName":"string","quantity": "${quantity}","unitAmount":"12"}`
-      body: `{"id":"${id}","quantity": "${quantity}"}`
+      body: `{"id":"${id}","quantity":"${quantity}"}`
     })
       .then(res => {
         if (res.ok) return res.json()
